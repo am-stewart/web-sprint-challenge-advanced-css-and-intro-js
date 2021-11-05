@@ -32,7 +32,7 @@ To make your website more accessible you should use semantic HTML to help a scre
 A variable is like a container that you can use to store and access data.
 
 4. What is the purpose of using functions in code?
-Using functions allows you to use your data in a certain way and then repeat it as often as you need to without having to rewrite all the code.
+Using functions allows you to use your code in a certain way and then repeat it as often as you need to without having to rewrite all the code.
 
 5. How do you access a key inside of an object inside of an array?
 You would access it by calling the object at whatever index you are looking for inside the array and then using dot notation to access the key. For example, array[i].key
