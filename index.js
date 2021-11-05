@@ -264,7 +264,7 @@ function removeArtist(array, index) {
   array.splice(index,1);
   return array.length;
 }
-console.log(removeArtist(artists, 0));
+console.log('task 5:', removeArtist(artists, 0));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
@@ -282,10 +282,19 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(array, id, name, years, genre, nationality, bio) {
+  const newArtist = {
+    id,
+    name,
+    years,
+    genre,
+    nationality,
+    bio
+    }
+  array.push(newArtist);
+  return array;
 }
-
+console.log('task 6:', addArtist(artists, 20, 'Allison Stewart','1988-2021', 'Web Design', 'American', 'I am from New Englangd. I am married with a dog.'));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
