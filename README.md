@@ -26,7 +26,7 @@ Please answer the following questions below, you may edit the readme file to inc
 Accessibility on the web is taking into account certain features that make using the web easier for people with limitations (ie blind). There are things you can do with your code to make your website easier for people to use.
 
 2. Talk about 3 different things you can do to ensure your website is accessible. 
-To make your website more accessible you should use semantic HTML to help a screen reader, you can also pay attention to your background/font colors and make sure they are easily readable and not too harsh, and another thing you should do is use scalable measurements.
+To make your website more accessible you should use semantic HTML to help a screen reader, you can also pay attention to your background/font colors and make sure they are easily readable and not too harsh, and another thing you should do is use scalable measurements and add alt text to your image tags.
 
 3. How would you explain the concept of a variable to someone new to programming?
 A variable is like a container that you can use to store and access data.
